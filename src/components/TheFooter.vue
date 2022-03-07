@@ -28,3 +28,32 @@
     <p>© Copyright 2018 TinDog.</p>
   </footer>
 </template>
+
+<style scoped>
+/* call to action */
+#cta {
+  text-align: center;
+  background: #ff4c68;
+  padding: 7% 25%;
+  color: #fff;
+}
+#cta h3 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  margin: auto;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding: 5% 10%;
+}
+.fa_foot {
+  margin: 10px 10px;
+}
+.copyright_footer {
+  margin-top: 20px;
+}
+</style>

@@ -23,9 +23,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#cta">Download</a>
             </li>
@@ -48,9 +46,84 @@
           </button>
         </div>
         <div class="col-lg-6">
-          <img class="title-img" src="images/iphone6.png" alt="iphone-mockup" />
+          <img
+            class="title-img"
+            src="./images/iphone6.png"
+            alt="iphone-mockup"
+          />
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<style scoped>
+/* title section */
+
+#title {
+  background: #ff4c68;
+  color: white;
+  padding-bottom: 60px;
+}
+
+div.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn {
+  margin: 10px;
+}
+
+/* navigation bar */
+h1.h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+nav.navbar {
+  padding-bottom: 4.5rem;
+}
+
+a.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* nav download-button */
+
+button.download-button {
+  margin: 5% 3% 5% 0;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Title Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* media query */
+@media (max-width: 1080px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+</style>

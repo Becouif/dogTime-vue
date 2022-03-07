@@ -17,3 +17,17 @@ export default {
   data() {},
 };
 </script>
+
+<style>
+body {
+  font-family: "Montserrat";
+}
+.colored-sec {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-sec {
+  background-color: #fff;
+}
+</style>

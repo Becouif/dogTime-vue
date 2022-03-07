@@ -15,7 +15,7 @@
             </h2>
             <img
               class="testimonial-img"
-              src="images/dog-img.jpg"
+              src="./images/dog-img.jpg"
               alt="dog-profile"
             />
             <em>Pebbles, New York</em>
@@ -27,7 +27,7 @@
             </h2>
             <img
               class="testimonial-img"
-              src="images/lady-img.jpg"
+              src="./images/lady-img.jpg"
               alt="lady-profile"
             />
             <em>Beverly, Illinois</em>
@@ -54,14 +54,55 @@
 
     <!-- press  -->
     <div id="press" class="colored-sac">
-      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+      <img class="press-logo" src="./images/techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="./images/tnw.png" alt="tnw-logo" />
       <img
         class="press-logo"
-        src="images/bizinsider.png"
+        src="./images/bizinsider.png"
         alt="biz-insider-logo"
       />
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+      <img class="press-logo" src="./images/mashable.png" alt="mashable-logo" />
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Testimonial Section */
+
+#testimonials {
+    
+    text-align: center;
+    background: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* carousel testimonial */
+.carousel-inner {
+    padding: 7% 15%;
+    margin: auto;
+    
+}
+.carousel-inner h2 {
+    font-size: 3rem;
+}
+
+
+/* press section */
+#press {
+    background:#ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+
+</style>

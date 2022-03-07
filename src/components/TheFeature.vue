@@ -1,6 +1,5 @@
 <template>
-     <section id="features" class="white-sec">
-
+  <section id="features" class="white-sec">
     <div class="row">
       <div class="feature-box col-lg-4">
         <i class="icon fas fa-check-circle fa-4x"></i>
@@ -22,3 +21,29 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+/* features section */
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+#features {
+  padding: 7% 15%;
+  background: white;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: grey;
+}
+</style>
